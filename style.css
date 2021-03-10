@@ -1,0 +1,50 @@
+style.css
+body {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+
+
+}
+
+
+
+.main {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center; 
+    
+} 
+
+
+#logo {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 180px 10px 10px 20px;
+} 
+
+
+
+#searchBar{
+    justify-content: center;
+    display: flex;
+    margin: 45px auto;
+
+    height: 40px;
+    
+}
+
+
+
+#p1 {
+    display: flex;
+    justify-content: center;
+}
+
+#footer {
+    
+
+
+}
