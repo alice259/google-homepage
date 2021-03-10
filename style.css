@@ -5,7 +5,30 @@ body {
     color: #222;
 
 
+} 
+
+#navbar {
+    overflow:hidden;
+    top:0;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+
+  li a {
+    padding: 8px;
+    display: :block;
+  }
+  
+
+  li {
+    display: inline;
+      
+  }
 
 
 
@@ -44,7 +67,9 @@ body {
 }
 
 #footer {
-    
 
-
-}
+overflow: hidden;
+bottom:0;
+padding:0;
+margin:0;
+} 
