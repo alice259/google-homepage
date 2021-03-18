@@ -10,7 +10,10 @@
    <ul>
       <li style="float:left"><a href="https://policies.google.com/privacy?hl=en-AU&fg=1">About</a></li>
       <li style="float:left"><a href="https://store.google.com/AU?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-AU">Store</a></li>
-      <li style="float:right"><a href="https://policies.google.com/privacy?hl=en-AU&fg=1">Sign In</a></li>
+      <li style="float:right" id="signin">
+        <a href="https://policies.google.com/privacy?hl=en-AU&fg=1"><img src="images/signin.png"/>
+        </a>
+      </li>
       <li style="float:right"><a href="https://policies.google.com/privacy?hl=en-AU&fg=1"><img src="https://cdn.iconscout.com/icon/free/png-512/apps-46-461702.png" height="35px"/></a></li>
       <!--google apps logo-->
       <li style="float:right"><a href="https://policies.google.com/privacy?hl=en-AU&fg=1">Images</a></li>
@@ -28,17 +31,25 @@
   </div>
 
   <div id="searchBar" class="main">
-    <form>
-        <input type="text" maxlength="2048" id="searchBar" name="searchBar" placeholder="Search or type a URL..." size="70" ><br>
-        
-    </form>
+   <table class="searchElements">
+     <tr>
+       <td>
+         <input type="text" maxlength="2048" id="searchBar" placeholder="Search or type a URL..." >
+       </td>
+      
+      <td>
+        <a href="#"><img src="images/search_glass.png"/>
+      </td>
+
+     </tr>
+   </table>
 
   </div>
 
    <div class="main">
         
-           <input type="submit" id="button1" name="btn1" class="main" aria-label="Google Search" value="Google Search">
-           <input type="submit" id="button2" name="btn2" class="main" aria-label="I'm Feeling Lucky" value="I'm Feeling Lucky">
+      <input type="submit" id="button1" name="btn1" class="main" aria-label="Google Search" value="Google Search">
+      <input type="submit" id="button2" name="btn2" class="main" aria-label="I'm Feeling Lucky" value="I'm Feeling Lucky">
            
 
    </div>
@@ -52,7 +63,7 @@
 
   <div id="footer">
     
-
+<ul><a href="https://policies.google.com/privacy?hl=en-AU&fg=1">Australia</a></ul><br>
     <ul>
       <li style="float:left"><a href="https://policies.google.com/privacy?hl=en-AU&fg=1">Advertising</a></li>
       <li style="float:left"><a href="https://policies.google.com/privacy?hl=en-AU&fg=1">Business</a></li>
